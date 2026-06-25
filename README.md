@@ -138,18 +138,19 @@ Page 1 — Executive Overview
 KPI cards, risk distribution donut chart, top critical providers 
 bar chart, audit priority table sorted by fraud probability
 
-<img width="1157" height="656" alt="Clinical Behavior" src="https://github.com/user-attachments/assets/66a8f149-09df-4997-9100-a82cda9e1705" />
-
-
 Page 2 — Financial Analysis
 Fraud probability vs claim amount scatter plot, average claim 
 amount by risk tier, top fraud drivers distribution
 
-<img width="1172" height="671" alt="Financial Analysis" src="https://github.com/user-attachments/assets/17d2c476-8e97-430e-bb61-1f84d0122d48" />
-
 Page 3 — 
 Inpatient ratio by risk tier, diagnosis diversity comparison, 
 claims per patient analysis, hospital stay patterns
+
+<img width="1157" height="656" alt="Clinical Behavior" src="https://github.com/user-attachments/assets/66a8f149-09df-4997-9100-a82cda9e1705" />
+
+
+<img width="1172" height="671" alt="Financial Analysis" src="https://github.com/user-attachments/assets/17d2c476-8e97-430e-bb61-1f84d0122d48" />
+
 
 <img width="1167" height="658" alt="Executive Overview" src="https://github.com/user-attachments/assets/a21c38b5-4247-4445-99b6-1b6117c1a241" />
 
