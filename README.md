@@ -14,6 +14,7 @@ This project builds an automated **Provider Risk Intelligence System** that:
 - Assigns a fraud risk score between 0 and 1
 - Explains exactly why each provider was flagged
 - Delivers a prioritized audit list for investigation teams
+- 
 # Project Highlights
    Metric | Value 
 
@@ -80,7 +81,7 @@ alerts from 107 to 46 providers.
 Phase 4 — SHAP Explainability
 
 Applied SHAP TreeExplainer to make every prediction fully interpretable.
-The system does not just output a risk score — it explains exactly 
+The system does not just output a risk score,it explains exactly 
 which features drove each provider's fraud probability.
 
 Top Global Fraud Drivers:
@@ -112,7 +113,7 @@ Risk Category | Count | Recommended Action
  Low | 928 | No action required 
 
 Business Impact: Reduces investigation scope from 5,410 providers 
-to 83 critical cases — a 98% reduction — while providing a specific 
+to 83 critical cases a 98% reduction while providing a specific 
 explanation for every flagged provider.
 
 
@@ -120,37 +121,55 @@ explanation for every flagged provider.
 
 Global Feature Importance
 
+
 <img width="1198" height="1111" alt="shap_waterfall_plot" src="https://github.com/user-attachments/assets/eaf5f892-9bf9-4019-bffe-490e1b6c91d6" />
+
 
 Feature Impact Summary
 
+
 <img width="1161" height="1110" alt="shap_summary_plot" src="https://github.com/user-attachments/assets/1a73857c-2c2d-48d3-90c1-d13662b75a26" />
+
 
 Individual Provider Explanation
 
+
 <img width="1185" height="1111" alt="shap_bar_plot" src="https://github.com/user-attachments/assets/37f218e0-f9d8-4fe7-975c-cbffe3ac8ad6" />
+
 
 #Power BI Dashboard
 
 3-page executive dashboard built on model outputs:
 
+
+
 Page 1 — Executive Overview
 KPI cards, risk distribution donut chart, top critical providers 
 bar chart, audit priority table sorted by fraud probability
 
+
+
 <img width="1167" height="658" alt="Executive Overview" src="https://github.com/user-attachments/assets/769228f0-44d5-4169-ad7a-2e769b240a24" />
+
+
 
 
 Page 2 — Financial Analysis
 Fraud probability vs claim amount scatter plot, average claim 
 amount by risk tier, top fraud drivers distribution
 
+
+
 <img width="1172" height="671" alt="Financial Analysis" src="https://github.com/user-attachments/assets/ad031ee0-5155-4a53-a95c-f63261d7c96a" />
 
 
-Page 3 — 
+
+
+Page 3 — Clinical Behavior
 Inpatient ratio by risk tier, diagnosis diversity comparison, 
 claims per patient analysis, hospital stay patterns
+
+
 
 <img width="1157" height="656" alt="Clinical Behavior" src="https://github.com/user-attachments/assets/e272df7b-0eae-48a7-bffc-4ea389a116b0" />
 
