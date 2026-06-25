@@ -1,17 +1,5 @@
 # Healthcare  Fraud Detection
  ML based provider risk intelligence system on 558K Medicare claims
- 
- What Makes This Beyond Standard Fraud Detection: 
-    Layer 1: Multi-table data engineering (4 raw files → 1 master table)
-    Layer 2: Business-justified null handling (10 decisions explained)
-    Layer 3: Provider behavioral profiling (558K → 5,410 rows)
-    Layer 4: Imbalanced classification handled properly
-    Layer 5: Dual model comparison with tradeoff analysis
-    Layer 6: Explainable AI (SHAP — global + individual)
-    Layer 7: Risk stratification (4 tiers)
-    Layer 8: Business audit output (83 critical cases)
-    Layer 9: Executive dashboard (3 pages)
-
 
 # Business Problem
 Healthcare fraud costs the US insurance system approximately $300 billion 
@@ -21,11 +9,22 @@ bill using deceased patient IDs.
 Insurance companies receive millions of claims every month across thousands 
 of providers. Manual investigation of every provider is impossible. 
 
-This project builds an automated **Provider Risk Intelligence System** that:
+This project builds an automated Provider Risk Intelligence System that:
 - Analyzes the complete billing history of every provider
 - Assigns a fraud risk score between 0 and 1
 - Explains exactly why each provider was flagged
 - Delivers a prioritized audit list for investigation teams
+
+What Makes This Beyond Standard Fraud Detection: 
+    Layer 1: Multi-table data engineering (4 raw files → 1 master table)
+    Layer 2: Business-justified null handling (10 decisions explained)
+    Layer 3: Provider behavioral profiling (558K → 5,410 rows)
+    Layer 4: Imbalanced classification handled properly
+    Layer 5: Dual model comparison with tradeoff analysis
+    Layer 6: Explainable AI (SHAP — global + individual)
+    Layer 7: Risk stratification (4 tiers)
+    Layer 8: Business audit output (83 critical cases)
+    Layer 9: Executive dashboard (3 pages)
 
 # Project Highlights
    Metric | Value 
