@@ -1,4 +1,4 @@
-# Healthcare fraud detection
+# Healthcare  Fraud Detection
  ML based provider risk intelligence system on 558K Medicare claims
 
 # Business Problem
@@ -117,10 +117,9 @@ explanation for every flagged provider.
 
 
 #SHAP Visualizations
-![Executive Overview](dashboard_p<img width="1198" height="1111" alt="shap_waterfall_plot" src="https://github.com/user-attachments/assets/eaf5f892-9bf9-4019-bffe-490e1b6c91d6" />
+<img width="1198" height="1111" alt="shap_waterfall_plot" src="https://github.com/user-attachments/assets/eaf5f892-9bf9-4019-bffe-490e1b6c91d6" />
 <img width="1161" height="1110" alt="shap_summary_plot" src="https://github.com/user-attachments/assets/1a73857c-2c2d-48d3-90c1-d13662b75a26" />
 <img width="1185" height="1111" alt="shap_bar_plot" src="https://github.com/user-attachments/assets/37f218e0-f9d8-4fe7-975c-cbffe3ac8ad6" />
-age1.png)
 
 #Power BI Dashboard
 
