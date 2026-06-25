@@ -38,14 +38,14 @@ Train (labels) | 5,410 | Provider fraud labels
 
 # Technical Approach
 
- Phase 1 — Data Engineering
+ Phase 1  Data Engineering
 - Loaded 4 raw tables with different structures and column counts
 - Joined all tables into a unified master claims table (558K rows)
 - Handled column conflicts, duplicate merges, and null values
 - Made business-justified decisions for every null column
 - Converted date columns and engineered time-based features
 
-Phase 2 — Feature Engineering
+Phase 2  Feature Engineering
 
 Transformed 558K claim-level rows into 5,410 provider-level 
 behavioral profiles across 5 feature categories:
@@ -59,7 +59,7 @@ Category | Features Engineered
  Patient Profile | avg_patient_age, deceased_patient_rate, chronic condition rates 
  Derived Ratios | claims_per_patient, claims_per_physician, inpatient_ratio 
 
-Phase 3 — Modeling and Evaluation
+Phase 3  Modeling and Evaluation
 
 Class Imbalance: Only 9.4% of providers are fraudulent.
 Handled using scale_pos_weight in XGBoost and class_weight in 
@@ -78,7 +78,7 @@ validating that feature engineering was the primary value driver.
 XGBoost improved Precision by 34%, reducing false investigation 
 alerts from 107 to 46 providers.
 
-Phase 4 — SHAP Explainability
+Phase 4  SHAP Explainability
 
 Applied SHAP TreeExplainer to make every prediction fully interpretable.
 The system does not just output a risk score,it explains exactly 
@@ -101,7 +101,7 @@ Provider PRV52985 — Fraud Probability: 99.9%
 - low diagnosis diversity → contributed +0.59 to fraud score
 - These three factors alone explain 83% of the fraud risk
 
-Phase 5 — Business Output
+Phase 5  Business Output
 
 Providers stratified into 4 risk tiers:
 
@@ -143,7 +143,7 @@ Individual Provider Explanation
 
 
 
-Page 1 — Executive Overview
+Page 1  Executive Overview
 KPI cards, risk distribution donut chart, top critical providers 
 bar chart, audit priority table sorted by fraud probability
 
@@ -154,7 +154,7 @@ bar chart, audit priority table sorted by fraud probability
 
 
 
-Page 2 — Financial Analysis
+Page 2  Financial Analysis
 Fraud probability vs claim amount scatter plot, average claim 
 amount by risk tier, top fraud drivers distribution
 
@@ -165,7 +165,7 @@ amount by risk tier, top fraud drivers distribution
 
 
 
-Page 3 — Clinical Behavior
+Page 3 Clinical Behavior
 Inpatient ratio by risk tier, diagnosis diversity comparison, 
 claims per patient analysis, hospital stay patterns
 
