@@ -117,8 +117,13 @@ explanation for every flagged provider.
 
 
 #SHAP Visualizations
+Global Feature Importance
 <img width="1198" height="1111" alt="shap_waterfall_plot" src="https://github.com/user-attachments/assets/eaf5f892-9bf9-4019-bffe-490e1b6c91d6" />
+
+Feature Impact Summary
 <img width="1161" height="1110" alt="shap_summary_plot" src="https://github.com/user-attachments/assets/1a73857c-2c2d-48d3-90c1-d13662b75a26" />
+
+Individual Provider Explanation
 <img width="1185" height="1111" alt="shap_bar_plot" src="https://github.com/user-attachments/assets/37f218e0-f9d8-4fe7-975c-cbffe3ac8ad6" />
 
 #Power BI Dashboard
